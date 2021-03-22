@@ -9,58 +9,16 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Oswald:wght@500&family=Roboto:wght@400;700&display=swap"
     rel="stylesheet">
-
+  <link rel="stylesheet" href="css/style.css">
   <title>Portfólio</title>
 </head>
 
-<style>
-  body {
-    background-color: #FFE4E1;
-  }
-
-  h1 {
-    font-family: 'Berkshire Swash', cursive;
-    font-size: 2.5em;
-  }
-
-  h2 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 1.6em;
-  }
-
-  p,
-  li {
-    font-family: 'Roboto', sans-serif;
-  }
-
-  #emphasis {
-    font-style: italic;
-  }
-
-  .abiliity-front {
-    font-size: .9em
-  }
-
-  .abiliity-team {
-    font-size: 1em;
-  }
-
-  .abiliity-leadership {
-    font-size: 1.2em;
-  }
-
-  .abiliity-creativity {
-    font-size: 1.4em;
-  }
-
-  .abiliity-adaptability {
-    font-size: 1.6em;
-  }
-</style>
-
 <body>
+
+  <!-- Seção Header-->
   <header>
-    <nav>
+
+    <nav id="menu">
       <ul>
         <li>
           <a href="#about-me">Sobre mim</a>
@@ -76,29 +34,47 @@
         </li>
       </ul>
     </nav>
+
   </header>
 
-  <h1>Ghislaine Giudicelli Latorraca</h1>
-  <img id="about-me" src="/img/lena02.jpg" alt="Imagem de Ghislaine" width="250px" height="300px">
+  <!-- Seção - Ssobre Mim -->
+  <div class="header-title">
+    <h1>Ghislaine Giudicelli Latorraca</h1>
+    <h2>Desenvolvedora Web</h2>
 
-  <h2>Sobre Mim</h2>
-  <p>
-    Olá! Me chamo Ghislaine, <strong id="emphasis">brasileira</strong>, natural do Rio de Janeiro e atualmente moro em
-    Curitiba - Paraná.
+  </div>
+  
+  <div class="header">
+    <div class="image-about">
 
-    <br><br>
+      <a href=""><img id="about-me" src="/img/lena02.jpg" alt="Imagem de Ghislaine" width="250px" height="300px"></a>
 
-    Apaixonada por <strong id="emphasis">tecnologia</strong>, recentemente iniciei meus estudos em desenvolvimento web
-    na
-    <strong id="emphasis">Trybe</strong>.
+    </div>
 
-    <br><br>
+    <div class="header-about">
 
-    Por gostar muito tecnologia acompanho muitos blogs que fazem referencia a área, e um dos meus preferidos é o <a
-      href="https://www.programaria.org/category/artigos/" target="_blank">progra{m}aria</a>.
-  </p>
+      <p>
+        Olá! Me chamo Ghislaine, <span id="stronger">brasileira</span>, natural do Rio de Janeiro e atualmente moro em
+        Curitiba - Paraná.
 
-  <div>
+        <br><br>
+
+        Apaixonada por <span id="stronger">tecnologia</span>, recentemente iniciei meus estudos em desenvolvimento web
+        na
+        <span id="stronger">Trybe</span>.
+
+        <br><br>
+
+        Por gostar muito tecnologia acompanho muitos blogs que fazem referencia a área, e um dos meus preferidos é o <a
+          href="https://www.programaria.org/category/artigos/" target="_blank">progra{m}aria</a>.
+      </p>
+    </div>
+
+  </div>
+
+  <!-- Seção - Minhas Skills -->
+
+  <div class="about-skills">
     <h2 id="skills">Minhas Habilidades</h2>
 
     <ul>
@@ -110,9 +86,20 @@
     </ul>
   </div>
 
-  <h2 id="portfolio">Portfólio</h2>
+  <!-- Seção - Portfólio -->
+  <div class="works">
 
-  <h2 id="contact">Contato</h2>
+    <h2 id="portfolio">Portfólio</h2>
+
+  </div>
+
+  <!-- Seção - Contato -->
+
+  <div class="form-contact">
+    <h2 id="contact">Contato</h2>
+
+  </div>
+
 
 </body>
 
