@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Oswald:wght@500&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Portfólio</title>
 </head>
 
-<body bgcolor="#D3D3D3">
+<body>
+
+  <!-- Seção Header-->
   <header>
-    <nav>
+
+    <nav id="menu">
       <ul>
         <li>
-          <a href="#about-me">Sobre Mim</a>
+          <a href="#about-me">Sobre mim</a>
         </li>
         <li>
           <a href="#skills">Habilidades</a>
@@ -25,34 +34,73 @@
         </li>
       </ul>
     </nav>
+
   </header>
 
+  <!-- Seção - Ssobre Mim -->
+  <div class="header-title">
     <h1>Ghislaine Giudicelli Latorraca</h1>
-    <img id="about-me" src="/img/lena02.jpg" alt="Imagem de Ghislaine" width="250px" height="300px">
+    <h2>Desenvolvedora Web</h2>
 
-    <h2>Sobre Mim</h2>
-   <p>
-     Olá! Me chamo Ghislaine, sou brasileira, natural do Rio de Janeiro e atualmente moro em Curitiba - Paraná.
-       <br><br>
-   Apaixonada por <strong>gatos</strong> e <strong>tecnologia</strong>, vivendo um momento único sendo estudante de desenvolvimento web na <strong>Trybe</strong>.
-    <br><br>
-   Por gostar muito tecnologia acompanho muitos blogs que fazem referencia a área, e um dos meus preferidos é o <a href="https://www.programaria.org/category/artigos/" target="_blank">progra{m}aria</a>.
-  </p>
+  </div>
+  
+  <div class="header">
+    <div class="image-about">
 
-  <div>
-    <h2 id="skills">Minhas Habilidades</h2>
-      
-      <ul>
-          <li><strong>Desenvolvimento Front-End</strong></li>
-          <li>Trabalho em equipe</li>
-          <li>Liderança</li>
-          <li>Criatividade</li>
-      </ul>
+      <a href=""><img id="about-me" src="/img/lena02.jpg" alt="Imagem de Ghislaine" width="250px" height="300px"></a>
+
+    </div>
+
+    <div class="header-about">
+
+      <p>
+        Olá! Me chamo Ghislaine, <span id="stronger">brasileira</span>, natural do Rio de Janeiro e atualmente moro em
+        Curitiba - Paraná.
+
+        <br><br>
+
+        Apaixonada por <span id="stronger">tecnologia</span>, recentemente iniciei meus estudos em desenvolvimento web
+        na
+        <span id="stronger">Trybe</span>.
+
+        <br><br>
+
+        Por gostar muito tecnologia acompanho muitos blogs que fazem referencia a área, e um dos meus preferidos é o <a
+          href="https://www.programaria.org/category/artigos/" target="_blank">progra{m}aria</a>.
+      </p>
+    </div>
+
   </div>
 
-  <h2 id="portfolio">Portfólio</h2>
+  <!-- Seção - Minhas Skills -->
 
-  <h2 id="contact">Contato</h2>
+  <div class="about-skills">
+    <h2 id="skills">Minhas Habilidades</h2>
+
+    <ul>
+      <li class="abiliity-front"><strong>Desenvolvimento Front-End</strong></li>
+      <li class="abiliity-team">Trabalho em equipe</li>
+      <li class="abiliity-leadership">Liderança</li>
+      <li class="abiliity-creativity">Criatividade</li>
+      <li class="abiliity-adaptability">Adaptabilidade</li>
+    </ul>
+  </div>
+
+  <!-- Seção - Portfólio -->
+  <div class="works">
+
+    <h2 id="portfolio">Portfólio</h2>
+
+  </div>
+
+  <!-- Seção - Contato -->
+
+  <div class="form-contact">
+    <h2 id="contact">Contato</h2>
+
+  </div>
+
 
 </body>
+
 </html>
